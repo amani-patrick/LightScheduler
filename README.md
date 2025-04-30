@@ -5,6 +5,9 @@
 ## Overview
 Light Scheduler is a web application designed to help users schedule the on and off times for their lights. The application utilizes WebSocket for real-time communication and MQTT for message handling. This project features a new user interface theme that enhances user experience while maintaining the same core functionality.
 
+![image](https://github.com/user-attachments/assets/2758e678-0cc5-442c-9cdb-ade03283f428)
+
+
 ## Features
 - Schedule light on and off times using a user-friendly interface.
 - Real-time connection status updates.
