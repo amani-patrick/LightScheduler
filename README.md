@@ -1,4 +1,6 @@
 # Light Scheduler
+![image](https://github.com/user-attachments/assets/3a321eef-3340-4eb3-ac8f-55c5e7fdb487)
+
 
 ## Overview
 Light Scheduler is a web application designed to help users schedule the on and off times for their lights. The application utilizes WebSocket for real-time communication and MQTT for message handling. This project features a new user interface theme that enhances user experience while maintaining the same core functionality.
@@ -18,7 +20,7 @@ Light Scheduler is a web application designed to help users schedule the on and 
 ### Installation
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone (https://github.com/amani-patrick/LightScheduler.git)
    cd lightScheduler
    ```
 
