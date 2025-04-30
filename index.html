@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>amani-Light Scheduler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>A-Light Scheduler</h1>
+    <div class="scheduler">
+      <div class="form-group">
+        <label for="on-time">Light ON Time:</label>
+        <input type="time" id="on-time" required />
+      </div>
+      <div class="form-group">
+        <label for="off-time">Light OFF Time:</label>
+        <input type="time" id="off-time" required />
+      </div>
+      <button id="submit-btn">Set Schedule</button>
+    </div>
+    <p id="status" class="status-hover">Status: Waiting for schedule...
+      <span class="tooltip">Ensure subscriber.py is running for proper functionality.</span>
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

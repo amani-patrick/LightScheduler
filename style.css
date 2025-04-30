@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #3c4043;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+h1 {
+    color: #61dafb;
+    margin-bottom: 1.5rem;
+}
+
+.scheduler {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+input[type="time"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+    background-color: #4b4f54;
+    color: #ffffff;
+}
+
+button {
+    padding: 0.75rem;
+    background-color: #61dafb;
+    color: #282c34;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+#status {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+}
+
+#status:hover::after {
+    content: "Connection Status: Check if subscriber.py is running.";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 10;
+}
